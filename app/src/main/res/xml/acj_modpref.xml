@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/acjother">
+        <Preference
+            android:key="acjupdater"
+            android:summary="@string/acjwmaversion"
+            android:title="@string/acjupdater" />
+        <Preference
+            android:key="acjicons"
+            android:summary="@string/acjiconssum"
+            android:title="@string/acjicons">
+            <intent
+                android:targetClass="com.whatsapp.architjn.IconChoose"
+                android:targetPackage="com.whatsapp.architjn" />
+        </Preference>
+        <Preference
+            android:key="acjoa"
+            android:summary="@string/acjoa_detail"
+            android:title="@string/acjotherapps">
+        </Preference>
+        <Preference
+            android:key="acjdonate"
+            android:summary="@string/acjdonatesum"
+            android:title="@string/acjdonate">
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/acjcolor">
+        <Preference
+            android:key="acjuniversal"
+            android:summary="@string/acjunisum"
+            android:title="@string/acjuniversal">
+            <!--<intent-->
+                <!--android:targetClass="com.psy.whatsapp.RestartAppActivity"-->
+                <!--android:targetPackage="com.whatsapp" />-->
+        </Preference>
+        <Preference
+            android:key="acjcons"
+            android:summary="@string/acjconssum"
+            android:title="@string/acjcons" />
+        <Preference
+            android:key="acjchat"
+            android:summary="@string/acjchatsum"
+            android:title="@string/acjchat" />
+        <Preference
+            android:key="acjcont"
+            android:summary="@string/acjcontactssum"
+            android:title="@string/acjcontacts" />
+        <Preference
+            android:key="acjfab"
+            android:summary="@string/acjfabsum"
+            android:title="@string/acjfabtab" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/acjothersettings">
+        <Preference
+            android:key="acjpass"
+            android:summary="@string/acjpasssum"
+            android:title="@string/acjpass" />
+        <Preference
+            android:key="acjreset"
+            android:summary="@string/acjresetsum"
+            android:title="@string/acjreset" />
+    </PreferenceCategory>
+</PreferenceScreen>

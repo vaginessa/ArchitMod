@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/architjn/AndroidStudioProjects/WhatsMapp/devmilColor/build/intermediates/bundles/debug/res/values-no/values.xml -->
+    <eat-comment/>
+    <string name="color_hex_invalid">Ugyldig hex-kode for farge!</string>
+    <string name="color_new_color">Ny farge</string>
+    <string name="color_old_color">Gammel farge</string>
+    <string name="color_select_color">Velg en farge</string>
+</resources>

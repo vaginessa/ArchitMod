@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="color_select_color">Wybierz kolor</string>
+<string name="color_old_color">Stary kolor</string>
+<string name="color_new_color">Nowy kolor</string>
+<string name="color_hex_invalid">Niepoprawny numer hex koloru!</string>
+</resources>

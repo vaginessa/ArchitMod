@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="acj_fab_normal_color"
+        android:summary="@string/acj_fab_normal_sum"
+        android:title="@string/acj_fab_normal">
+    </Preference>
+    <Preference
+        android:key="acj_fab_pressed_color"
+        android:summary="@string/acj_fab_pressed_sum"
+        android:title="@string/acj_fab_pressed">
+    </Preference>
+    <Preference
+        android:key="acj_fab_bg_color"
+        android:summary="@string/acj_fab_bg_sum"
+        android:title="@string/acj_fab_bg">
+    </Preference>
+    <Preference
+        android:key="acj_fab_anim_pos"
+        android:summary="@string/acj_fab_bg_anim_sum"
+        android:title="@string/acj_fab_bg_pos">
+    </Preference>
+    <Preference
+        android:key="acj_fab_anim_tut"
+        android:summary="@string/acj_fab_bg_anim_tut"
+        android:title="@string/acj_fab_bg_tut">
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/WhatsMapp/devmilColor/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c2b073ce1a9188610da8f2e6f9088e3a836a1454">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/classes-adbbf3411a6598d5a51a9c20f298f37ed165fdce.jar" />
+    </item>
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/classes-5d3d51ec34efb5fb44f15998eef102c496885258.jar" />
+    </item>
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/WhatsMapp/patternlib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ecca5e18f3b841b059f73cd31c144c0e4a05780e">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/classes-f9e2e5d70eecd618940a8788a4137665776f8c80.jar" />
+    </item>
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/WhatsMapp/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1911d71ef2a29315c0757f0160c5bef9e1d4f16c">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/classes-e3f8199292581548ac9d124368f63e324718b0b2.jar" />
+    </item>
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9b654c6a08359bb1ca666d7159602aff91fb322b.jar" />
+    </item>
+    <item
+        jar="/Applications/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-822833853054079c0f54f08889e87bead50e8849.jar" />
+    </item>
+    <item
+        jar="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/architjn/AndroidStudioProjects/WhatsMapp/app/build/intermediates/pre-dexed/debug/classes-cdea9a6b45dbcd5ad8863ee8adcdda1b13839fa1.jar" />
+    </item>
+
+</items>

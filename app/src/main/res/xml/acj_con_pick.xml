@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="acj_cp_bg"
+        android:summary="@string/acj_uni_bg_sum"
+        android:title="@string/acj_bg">
+    </Preference>
+    <Preference
+        android:key="acj_cp_actionbar"
+        android:summary="@string/acj_uni_actionbar_sum"
+        android:title="@string/acj_actionbar">
+    </Preference>
+    <Preference
+        android:key="acj_cp_stat"
+        android:summary="@string/acj_uni_stat_sum"
+        android:title="@string/acj_statbar">
+    </Preference>
+    <Preference
+        android:key="acj_cp_nav"
+        android:summary="@string/acj_uni_nav_sum"
+        android:title="@string/acj_navbar">
+    </Preference>
+</PreferenceScreen>

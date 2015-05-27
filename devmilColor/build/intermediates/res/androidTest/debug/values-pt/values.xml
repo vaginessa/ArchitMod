@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/architjn/AndroidStudioProjects/WhatsMapp/devmilColor/build/intermediates/bundles/debug/res/values-pt/values.xml -->
+    <eat-comment/>
+    <string name="color_hex_invalid">Código hexadecimal inválido</string>
+    <string name="color_new_color">Cor nova</string>
+    <string name="color_old_color">Cor anterior</string>
+    <string name="color_select_color">Selecione a cor</string>
+</resources>

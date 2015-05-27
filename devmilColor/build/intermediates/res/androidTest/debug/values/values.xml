@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/architjn/AndroidStudioProjects/WhatsMapp/devmilColor/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <string name="app_name">DevmilColor</string>
+    <string name="color_hex_invalid">Invalid color hex code!</string>
+    <string name="color_new_color">New color</string>
+    <string name="color_old_color">Old color</string>
+    <string name="color_select_color">Select a color</string>
+    <string name="prefOK">OK</string>
+</resources>

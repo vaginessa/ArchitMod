@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:background="#e6e6e5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:paddingTop="22dp"
+                android:id="@+id/modUpdater"
+                android:background="@drawable/architjn_normal_ripple"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_alignTop="@+id/modUpdaterText"
+                    android:layout_alignBottom="@+id/modUpdaterText"
+                    android:id="@+id/modUpdaterIcon"
+                    android:src="@drawable/update" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/modUpdaterText"
+                    android:layout_toRightOf="@+id/modUpdaterIcon"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Updater" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/modUpdaterText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modUpdaterText"
+                    android:src="#d3d3d3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:paddingTop="22dp"
+                android:clickable="true"
+                android:layout_below="@+id/modUpdater"
+                android:id="@+id/modChangeIcon"
+                android:background="@drawable/architjn_normal_ripple"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_alignTop="@+id/iconModText"
+                    android:layout_alignBottom="@+id/iconModText"
+                    android:id="@+id/iconModLogo"
+                    android:src="@drawable/architmodicon" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/iconModText"
+                    android:layout_toRightOf="@+id/iconModLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Icons" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/iconModText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/iconModText"
+                    android:src="#d3d3d3" />
+
+                <!--<ImageView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:layout_below="@+id/iconModText"-->
+                <!--android:src="@drawable/big_divider" android:padding="2dp" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:paddingTop="22dp"
+                android:clickable="true"
+                android:layout_below="@+id/modChangeIcon"
+                android:id="@+id/modOtherApps"
+                android:onClick="otherApps"
+                android:background="@drawable/architjn_normal_ripple"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_alignTop="@+id/otherModText"
+                    android:layout_alignBottom="@+id/otherModText"
+                    android:id="@+id/otherModLogo"
+                    android:src="@drawable/other_apps" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/otherModText"
+                    android:layout_toRightOf="@+id/otherModLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Other Apps" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/otherModText"
+                    android:src="@drawable/big_divider"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modOtherApps"
+                android:id="@+id/modFirst"
+                android:clickable="true"
+                android:background="@drawable/architjn_normal_ripple"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/modFirstLogo"
+                    android:padding="4dp"
+                    android:layout_alignTop="@+id/modFirstText"
+                    android:layout_alignBottom="@+id/modFirstText"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/list_icon_lollipop" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/modFirstText"
+                    android:layout_toRightOf="@+id/modFirstLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Conversations" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/modFirstText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modFirstText"
+                    android:src="#d3d3d3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modFirst"
+                android:id="@+id/modSecond"
+                android:clickable="true"
+                android:background="@drawable/architjn_normal_ripple"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:padding="3dp"
+                    android:layout_alignTop="@+id/modSecondText"
+                    android:layout_alignBottom="@+id/modSecondText"
+                    android:id="@+id/modSecondLogo"
+                    android:src="@drawable/conversations_icon" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/modSecondText"
+                    android:layout_toRightOf="@+id/modSecondLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Chats" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/modSecondText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modSecondText"
+                    android:src="#d3d3d3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modSecond"
+                android:id="@+id/modContPick"
+                android:background="@drawable/architjn_normal_ripple"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:padding="3dp"
+                    android:layout_alignTop="@+id/modContPickText"
+                    android:layout_alignBottom="@+id/modContPickText"
+                    android:id="@+id/modContPickLogo"
+                    android:src="@drawable/user_archit" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/modContPickText"
+                    android:layout_toRightOf="@+id/modContPickLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Contacts Screen" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/modContPickText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modContPickText"
+                    android:src="#d3d3d3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modContPick"
+                android:id="@+id/modForth"
+                android:background="@drawable/architjn_normal_ripple"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:padding="3dp"
+                    android:layout_alignTop="@+id/modForthText"
+                    android:layout_alignBottom="@+id/modForthText"
+                    android:id="@+id/modForthLogo"
+                    android:src="@drawable/architmod_fab" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/modForthText"
+                    android:layout_toRightOf="@+id/modForthLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Fab" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modForthText"
+                    android:src="@drawable/big_divider"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modForth"
+                android:id="@+id/modPassword"
+                android:background="@drawable/architjn_normal_ripple"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:padding="3dp"
+                    android:layout_alignTop="@+id/modPasswordText"
+                    android:layout_alignBottom="@+id/modPasswordText"
+                    android:id="@+id/modPasswordLogo"
+                    android:src="@drawable/lock" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/modPasswordText"
+                    android:layout_toRightOf="@+id/modPasswordLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Password" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/modPasswordText"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modPasswordText"
+                    android:src="#d3d3d3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/modPassword"
+                android:id="@+id/modReset"
+                android:background="@drawable/architjn_normal_ripple"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:padding="3dp"
+                    android:layout_alignTop="@+id/modResetText"
+                    android:layout_alignBottom="@+id/modResetText"
+                    android:id="@+id/modResetLogo"
+                    android:src="@drawable/mod_reset" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="22dp"
+                    android:id="@+id/modResetText"
+                    android:layout_toRightOf="@+id/modResetLogo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="22dp"
+                    android:textColor="#787878"
+                    android:text="Reset" />
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/modResetText"
+                    android:src="@drawable/big_divider"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <!--<com.whatsapp.architjn.ConversationView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent">-->
+
+    <!--<View-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionsMenu-->
+    <!--android:layout_gravity="bottom|center|right"-->
+    <!--android:id="@+id/architjn_mod_fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="16.0dip"-->
+    <!--android:layout_marginBottom="13.0dip"-->
+    <!--android:layout_marginEnd="16.0dip"-->
+    <!--fab:fab_addButtonColorPressed="#ff0000"-->
+    <!--fab:fab_addButtonColorNormal="#ff0000"-->
+    <!--fab:fab_addButtonPlusIconColor="@android:color/white"-->
+    <!--fab:fab_labelStyle="@style/menu_labels_style">-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_a"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="FABBroadcast"-->
+    <!--fab:fab_plusIconColor="#ff0000"-->
+    <!--fab:fab_colorPressed="#ff0000"-->
+    <!--fab:fab_size="mini" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="FABGroup"-->
+    <!--fab:fab_plusIconColor="#ff0000"-->
+    <!--fab:fab_colorPressed="#ff0000"-->
+    <!--fab:fab_size="mini" />-->
+
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="FABChat"-->
+    <!--fab:fab_plusIconColor="#ffffff"-->
+    <!--fab:fab_colorPressed="#ff0000"-->
+    <!--fab:fab_size="mini" />-->
+    <!--</com.getbase.floatingactionbutton.FloatingActionsMenu>-->
+    <!--</com.whatsapp.architjn.ConversationView>-->
+
+</RelativeLayout>

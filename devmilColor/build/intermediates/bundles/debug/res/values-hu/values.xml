@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/architjn/AndroidStudioProjects/WhatsMapp/devmilColor/src/main/res/values-hu/color.xml -->
+    <eat-comment/>
+    <string name="color_hex_invalid">Érvénytelen szín hex kód</string>
+    <string name="color_new_color">Új szín</string>
+    <string name="color_old_color">Régi szín</string>
+    <string name="color_select_color">Szín kiválasztása</string>
+</resources>

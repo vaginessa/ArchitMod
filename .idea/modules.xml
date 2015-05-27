@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WhatsMapp.iml" filepath="$PROJECT_DIR$/WhatsMapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devmilColor/devmilColor.iml" filepath="$PROJECT_DIR$/devmilColor/devmilColor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternlib/patternlib.iml" filepath="$PROJECT_DIR$/patternlib/patternlib.iml" />
+    </modules>
+  </component>
+</project>

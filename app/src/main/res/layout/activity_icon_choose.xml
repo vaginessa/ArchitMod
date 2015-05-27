@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/iconOne"
+                android:layout_toRightOf="@+id/iconOne_radio"
+                android:layout_margin="40dp"
+                android:src="@drawable/icon" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconOne_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/iconOne"
+                android:layout_alignBaseline="@+id/iconOne"
+                android:layout_alignBottom="@+id/iconOne" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/iconTwo"
+                android:layout_below="@+id/iconOne"
+                android:layout_toRightOf="@+id/iconOne_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/architmodicon" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconTwo_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/iconTwo"
+                android:layout_alignBaseline="@+id/iconTwo"
+                android:layout_alignBottom="@+id/iconTwo" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/iconThree"
+                android:layout_below="@+id/iconTwo"
+                android:layout_toRightOf="@+id/iconTwo_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/icon_00" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconThree_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/iconThree"
+                android:layout_alignBaseline="@+id/iconThree"
+                android:layout_alignBottom="@+id/iconThree" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/iconFour"
+                android:layout_below="@+id/iconThree"
+                android:layout_toRightOf="@+id/iconThree_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/icon_01" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconFour_radio"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/iconFour"
+                android:layout_alignBaseline="@+id/iconFour"
+                android:layout_alignBottom="@+id/iconFour" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply New Icon"
+        android:id="@+id/applyIcon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
